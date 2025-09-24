@@ -2,6 +2,8 @@
 
 A minimal, portable camera preview + still capture demo using **Qt Multimedia**.
 
+![screenshot](./assets/screenshot.png)
+
 ## Features
 - Detects first available camera
 - Live preview inside a `QVideoWidget`
