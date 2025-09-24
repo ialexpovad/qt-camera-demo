@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <!-- Bundle basics -->
+  <key>CFBundleIdentifier</key><string>@BUNDLE_ID@</string>
+  <key>CFBundleName</key><string>QtCameraDemo</string>
+  <key>CFBundleDisplayName</key><string>QtCameraDemo</string>
+  <key>CFBundleVersion</key><string>@PROJECT_VERSION@</string>
+  <key>CFBundleShortVersionString</key><string>@PROJECT_VERSION@</string>
+
+  <!-- Privacy: REQUIRED for camera access -->
+  <key>NSCameraUsageDescription</key>
+  <string>This app needs camera access to show live preview and capture photos.</string>
+
+  <!-- Optional, silences the Continuity Camera warning -->
+  <key>NSCameraUseContinuityCameraDeviceType</key><true/>
+
+  <!-- Not required for still photos, but handy if you later add video/audio -->
+  <key>NSMicrophoneUsageDescription</key>
+  <string>Microphone access is required for recording video with audio.</string>
+</dict>
+</plist>
